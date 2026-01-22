@@ -38,7 +38,7 @@ The GUI provides a user-friendly way to configure your downloads.
 
 Run the GUI with:
 ```bash
-python remain.py
+python main.py
 ```
 
 To prevent re-downloading videos when new items are added to a playlist, use the download archive. The archive file stores each downloaded video ID. Create/select an archive file on the first run, then reuse the same file on subsequent runs to automatically skip already-downloaded videos. If the file already exists, you may see an “Override?” prompt, but it does not overide it.
